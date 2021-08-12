@@ -12,7 +12,7 @@
         var developerKey = 'AIzaSyCI01SZF2KcBOw7dIDunx379dn_YUh0Le8';
     
         // The Client ID obtained from the Google API Console. Replace with your own Client ID.
-        var clientId = "811226900741-gslpgh0uasghk7gchuv1agsgvkme2s07.apps.googleusercontent.com"
+        var clientId = "811226900741-gslpgh0uasghk7gchuv1agsgvkme2s07.apps.googleusercontent.com";
     
         // Replace with your own project number from console.developers.google.com.
         // See "Project number" under "IAM & Admin" > "Settings"
@@ -30,7 +30,7 @@
 
         // Use the Google API Loader script to load the google.picker script.
         function loadPicker() {
-          gapi.load('auth', {'callback': onAuthApiLoad});
+          gapi.load('auth2', {'callback': onAuthApiLoad});
           gapi.load('picker', {'callback': onPickerApiLoad});
         }
     
