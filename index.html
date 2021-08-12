@@ -51,7 +51,6 @@
         }
     
         function handleAuthResult(authResult) {
-            alert(authResult.error);
           if (authResult && !authResult.error) {
             oauthToken = authResult.access_token;
             createPicker();
